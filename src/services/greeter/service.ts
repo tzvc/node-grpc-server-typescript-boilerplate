@@ -1,7 +1,7 @@
 import { sendUnaryData, ServerUnaryCall, status } from '@grpc/grpc-js';
 // types
-import { IGreeterServer, GreeterService } from './types/service_grpc_pb';
-import { HelloRequest, HelloReply } from './types/service_pb';
+import { IGreeterServer, GreeterService } from './generated/service_grpc_pb';
+import { HelloRequest, HelloReply } from './generated/service_pb';
 // utils
 import { ServiceError } from '../../utils/error_util';
 

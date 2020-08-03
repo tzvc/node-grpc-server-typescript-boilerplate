@@ -2,11 +2,11 @@
   "name": "base-grpc-service",
   "version": "1.0.0",
   "description": "Boilerplate code for Node.js gRPC services written in Typescript.",
-  "main": "index.js",
+  "main": "./dist/server.js",
   "scripts": {
     "build": "tsc",
     "build:proto": "sh ./scripts/proto_compile.sh",
-    "serve": "node ./dist/server.js",
+    "start": "node ./dist/server.js",
     "test": "mocha -r ts-node/register 'test/**/*.ts'"
   },
   "repository": {

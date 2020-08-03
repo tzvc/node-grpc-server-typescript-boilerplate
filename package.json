@@ -4,8 +4,10 @@
   "description": "Boilerplate code for Node.js gRPC services written in Typescript.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "proto-compile": "sh ./scripts/proto_compile.sh"
+    "build": "tsc",
+    "build:proto": "sh ./scripts/proto_compile.sh",
+    "serve": "node ./dist/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",

@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/thedeepsense/base-gRPC-service/issues"
   },
-  "homepage": "https://github.com/thedeepsense/base-gRPC-service#readme"
+  "homepage": "https://github.com/thedeepsense/base-gRPC-service#readme",
+  "devDependencies": {
+    "protoc-gen-ts": "^0.2.0"
+  }
 }

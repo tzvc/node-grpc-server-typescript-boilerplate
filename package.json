@@ -19,6 +19,10 @@
   "homepage": "https://github.com/thedeepsense/base-gRPC-service#readme",
   "devDependencies": {
     "grpc-tools": "^1.9.1",
+    "grpc_tools_node_protoc_ts": "^4.1.2",
     "protoc-gen-ts": "^0.2.0"
+  },
+  "dependencies": {
+    "@grpc/grpc-js": "^1.1.3"
   }
 }

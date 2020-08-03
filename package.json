@@ -1,0 +1,19 @@
+{
+  "name": "base-grpc-service",
+  "version": "1.0.0",
+  "description": "Boilerplate code for Node.js gRPC services written in Typescript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thedeepsense/base-gRPC-service.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thedeepsense/base-gRPC-service/issues"
+  },
+  "homepage": "https://github.com/thedeepsense/base-gRPC-service#readme"
+}

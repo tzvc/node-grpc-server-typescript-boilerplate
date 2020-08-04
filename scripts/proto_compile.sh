@@ -7,6 +7,7 @@ PROTOC_GEN_GRPC_PATH="./node_modules/.bin/grpc_tools_node_protoc_plugin"
 
 find ./src/services/* -maxdepth 0 -type d -not -path '*/\.*' | while read path; do
 		echo "Compiling protos for service at $path"
+    mkdir $path/generated
     # Generate Javascript code via grpc tools
 		yarn run grpc_tools_node_protoc \
     --grpc_out=grpc_js:$path/generated \
